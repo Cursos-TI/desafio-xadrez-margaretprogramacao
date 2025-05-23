@@ -17,3 +17,13 @@ printf("\nMovimento do Bispo (5 casas na diagonal: Cima Direita):\n");
         printf("Cima Direita\n");
         j++;
     }
+
+    printf("\nMovimento da Rainha (8 casas para a esquerda):\n");
+    int k = 1;
+    do {
+        printf("Esquerda\n");
+        k++;
+    } while (k <= 8);
+
+    return 0;
+}
