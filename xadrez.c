@@ -10,3 +10,10 @@ int main() {
         printf("Direita\n");
    
 }
+
+printf("\nMovimento do Bispo (5 casas na diagonal: Cima Direita):\n");
+    int j = 1;
+    while (j <= 5) {
+        printf("Cima Direita\n");
+        j++;
+    }
